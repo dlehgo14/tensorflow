@@ -56,7 +56,7 @@ for i in range(10):
     #np.argmax와 tf.argmax는 같은 기능의 함수입니다.
     #결괏값인 labels의 i번째 요소가 one-hot encoding 형식으로 되어 있으므로,
     #해당 배열에서 가장 높은 값을 가진 인덱스를 예측한 숫자로 출력합니다.
-    subslot.set_title('%d' % np.argmax(labels[i]))
+    subplot.set_title('%d' % np.argmax(labels[i]))
     #1차원 배열로 되어있는 i번째 이미지 데이터를
     #28*28 형식의 2차원 배열로 변형하여 이미지 형태로 출력합니다.
     #cmap 파라미터를 통해 이미지를 그레이스케일로 출력합니다.

@@ -44,3 +44,4 @@ for step in range(1000):
 
 print(sess.run(predicted,{X:x_data}))
 
+#이상하게 sigmoid를 쓰면 되고, relu를 쓰면 안된다.
